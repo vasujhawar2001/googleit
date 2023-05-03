@@ -2,7 +2,11 @@ import React, { lazy } from 'react'
 
 const Avatar = ({url}) => {
   return (
+<<<<<<< HEAD
     <div>
+=======
+    <div className='hover:animate-spin'>
+>>>>>>> d47f919 (fixed css/errors)
         <img loading="lazy" alt="profile-pic"
         className='h-8 rounded-full cursor-pointer transition duration-250
         transform hover:scale-110'
