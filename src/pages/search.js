@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 
 const search = () => {
-    const {query} = useParams();
+    const query = 0;
   return (
     <div>
     <Head>

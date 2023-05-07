@@ -1,4 +1,4 @@
-const randomSongs =  [
+export const randomSongs =  [
     "https://www.youtube.com/watch?v=wGF7PswOENQ",
     "https://www.youtube.com/watch?v=EiItLWWxgOI",
     "https://www.youtube.com/watch?v=fSS_R91Nimw",
