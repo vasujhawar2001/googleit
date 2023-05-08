@@ -19,8 +19,8 @@ const SearchHeader = () => {
   }
 
   return (
-    <header className='sticky top-0'>
-      <div className='flex w-full p-4 mt-2 items-center'>
+    <header className='sticky top-0 bg-white'>
+      <div className='flex w-full p-3 sm:p-4 mt-1 items-center'>
       <Image src="/google.png" 
       alt="Google Logo"
       width="80"
@@ -30,7 +30,7 @@ const SearchHeader = () => {
       />
       <form className='flex flex-grow border border-gray-200 
       hover:shadow-md focus-within:shadow-lg rounded-full 
-      px-4 py-2 ml-5 mr-5 items-center max-w-xl'>
+      px-4 py-2 ml-5 mr-5 items-center max-w-xs  sm:max-w-2xl'>
         <input ref={searchInput} type='text' 
         className='flex-grow w-full focus:outline-none' />
         <XMarkIcon className='h-6 text-gray-500 curson-pointer 
@@ -43,7 +43,7 @@ const SearchHeader = () => {
         transition hover:scale-125'  onClick={search}/>
         <button hidden type='submit' onClick={search}>Search</button>
       </form>
-      <Avatar className="ml-auto"/>
+      <Avatar/>
       </div>
 
       <HeaderOptions />
