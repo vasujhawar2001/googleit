@@ -1,16 +1,18 @@
-import React from 'react'
-import GoogleSearchForm from './GoogleSearchForm'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import { MagnifyingGlassIcon, MicrophoneIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useRef } from 'react'
 import Avatar from './Avatar'
 import HeaderOptions from './HeaderOptions'
+import { useTheme } from 'next-themes'
 
 const SearchHeader = () => {
 
   const router = useRouter();
   const searchInput = useRef(null);
+
+  const { theme, setTheme } = useTheme()
 
   const search = (e) =>{
     e.preventDefault();
@@ -19,7 +21,8 @@ const SearchHeader = () => {
   }
 
   return (
-    <header className='relative flex-grow top-0 w-full bg-white'>
+    <div>
+    <header className='relative flex-grow top-0 w-full bg-white dark:bg-slate-900'>
       <div className='flex w-full p-3 sm:p-4 mt-1 items-center'>
       <Image src="/google.png" 
       alt="Google Logo"
@@ -45,9 +48,9 @@ const SearchHeader = () => {
       </form>
       <Avatar/>
       </div>
-
       <HeaderOptions />
     </header>
+    </div>
   )
 }
 
