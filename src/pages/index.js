@@ -3,7 +3,6 @@ import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
 import Avatar from '@/components/Avatar'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
