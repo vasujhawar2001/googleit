@@ -19,7 +19,7 @@ const SearchHeader = () => {
   }
 
   return (
-    <header className='sticky top-0 bg-white'>
+    <header className='relative flex-grow top-0 w-full bg-white'>
       <div className='flex w-full p-3 sm:p-4 mt-1 items-center'>
       <Image src="/google.png" 
       alt="Google Logo"

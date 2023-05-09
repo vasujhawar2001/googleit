@@ -1,11 +1,13 @@
 import { GlobeAltIcon } from '@heroicons/react/24/outline'
+import { useRouter } from 'next/router'
 import React from 'react'
 
-const Footer = ({home}) => {
+const Footer = ({path}) => {
+
   return (
     <footer className={`w-full divide-y-2 div-gray-300 bg-gray-100 text-xs
-    text-gray-400 mt-10 ${home==="home" ? 'sticky bottom-0' : ''}`}>
-        <div className='flex flex-row px-4 py-1'>
+    text-gray-400 fixed-bottom`}>
+        <div className={`flex flex-row px-4 py-1`}>
             <GlobeAltIcon className='h-6 hover:animate-spin mr-2' />
             <a href='/' className='link text-sm'>India</a>
         </div>
