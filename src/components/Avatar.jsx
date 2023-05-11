@@ -1,7 +1,8 @@
 import { useTheme } from 'next-themes'
 import React, { lazy } from 'react'
+import {MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 
-const Avatar = ({className}) => {
+const Avatar = () => {
 
   const { theme, setTheme } = useTheme()
   return (
