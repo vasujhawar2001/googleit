@@ -1,14 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const HeaderOption = ({Icon, title, selected}) => {
+const HeaderOption = ({ Icon, title, selected }) => {
   return (
-    <div className={`flex items-center space-x-1 border-b-4 text-sm
-    hover:text-blue-500 cursor-pointer hover:border-blue-500 pb-2
-    ${selected && 'text-blue-500 border-blue-400'} ${!selected && 'border-transparent'}`}>
-        <Icon className="h-4" />
-        <p className='hidden sm:inline-flex'>{title}</p>
+    <div className={`flex items-center space-x-1 border-b-4 text-sm hover:text-blue-500 cursor-pointer hover:border-blue-500 pb-2 ${selected ? 'text-blue-500 border-blue-400' : 'border-transparent'}`}>
+      <Icon className={`h-4 ${selected ? 'dark:text-blue-500' : 'dark:text-gray-300'}`} />
+      <p className='hidden sm:inline-flex'>{title}</p>
     </div>
-  )
-}
+  );
+};
 
-export default HeaderOption
+export default HeaderOption;

@@ -6,7 +6,7 @@ import GoogleSearchForm from './GoogleSearchForm';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center sm:mt-44 mt-28 flex-grow'>
+    <div className='flex flex-col items-center sm:mt-42 mt-28 flex-grow'>
       <Image src="/google.png" alt="Google"
         height={180} 
         width={180}/>
