@@ -1,6 +1,5 @@
 import { useTheme } from 'next-themes'
 import React, { lazy } from 'react'
-import { MagnifyingGlassIcon, XMarkIcon, MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 
 const Avatar = ({className}) => {
 

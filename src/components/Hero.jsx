@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import { MagnifyingGlassIcon, MicrophoneIcon, CameraIcon } from "@heroicons/react/24/outline";
 import GoogleSearchForm from './GoogleSearchForm';
 
 
