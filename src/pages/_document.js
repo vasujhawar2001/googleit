@@ -4,10 +4,10 @@ import Footer from '../components/Footer';
 export default function Document() {
 
   return (
-    <Html lang="en" suppressHydrationWarning={true}>
+    <Html lang="en" suppressHydrationWarning>
       <Head />
       <body>
-        <Main />
+        <Main suppressHydrationWarning/>
         <NextScript />
       </body>
     </Html>

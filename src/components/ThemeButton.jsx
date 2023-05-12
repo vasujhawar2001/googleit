@@ -4,7 +4,7 @@ import {BsMoonStars} from "react-icons/bs"
 import { useTheme } from 'next-themes';
 
 const ThemeButton = () => {
-const { theme, setTheme } = useTheme();
+const { theme, setTheme } = useTheme("dark");
 
   return (
     <div className="h-9 w-9 flex justify-center rounded-full md:p-0 ml-2 bg-gray-800">

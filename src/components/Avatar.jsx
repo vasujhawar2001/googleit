@@ -1,8 +1,10 @@
 import { useTheme } from "next-themes";
 import React from "react";
 import { useRouter } from "next/router";
-import ThemeButton from "./ThemeButton";
+// import ThemeButton from "./ThemeButton";
+import dynamic from 'next/dynamic'
 
+const ThemeButton = dynamic(() => import('./ThemeButton'), { ssr: false })
 
 const Avatar = () => {
 
