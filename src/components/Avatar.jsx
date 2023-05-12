@@ -1,33 +1,25 @@
 import { useTheme } from "next-themes";
-import React, { lazy } from "react";
-import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
+import React from "react";
+import { useRouter } from "next/router";
+import ThemeButton from "./ThemeButton";
+
 
 const Avatar = () => {
-  const { theme, setTheme } = useTheme();
+
+  const router = useRouter();
   return (
     <div className="flex ml-auto">
-      <div className="hover:animate-spin">
+      <div className={`hover:animate-spin ${router.pathname==='/' ? "": "hidden sm:block"}`}>
         <img
           loading="lazy"
           alt="profile-pic"
-          height={40}
-          width={40}
+          height={35}
+          width={35}
           className={`rounded-full cursor-pointer`}
           src="/profile-pic.png"
         />
       </div>
-      <div className="h-10 flex rounded-full md:p-0 ml-2 dark:bg-gray-700 dark:text-white">
-        <button
-          className="items-center flex justify-center"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        >
-          {theme === "dark" ? (
-            <SunIcon className="h-9" />
-          ) : (
-            <MoonIcon className="h-9" />
-          )}
-        </button>
-      </div>
+      <ThemeButton />
     </div>
   );
 };

@@ -11,10 +11,10 @@ export default function Home() {
     <div className='flex space-x-4 items-center'>
       <a className='link' href='https://mail.google.com/mail/'>Gmail</a>
       <a className='link' href='https://www.google.com/imghp?hl=en'>Images</a>
-      <div className='h-5 hover:bg-gray-200'>
+      <div className='h-5 hover:bg-gray-200 rounded-full dark:hover:bg-gray-800'>
       <CgMenuGridO
       size={20}
-      className="rounded-full text-gray-700 dark:text-white dark:hover:bg-gray-800 rounded cursor-pointer"
+      className="rounded-full text-gray-700 dark:text-white dark:hover:text-orange-500 cursor-pointer"
       />
       </div>
       <Avatar/>

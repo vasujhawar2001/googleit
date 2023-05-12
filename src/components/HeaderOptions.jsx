@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import HeaderOption from './HeaderOption';
-import { MapIcon, NewspaperIcon, PhotoIcon, PlayIcon } from '@heroicons/react/24/outline';
+import { MapIcon, NewspaperIcon, PhotoIcon, PlayIcon, EllipsisVerticalIcon } from '@heroicons/react/24/outline';
 
 const HeaderOptions = () => {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -43,7 +43,7 @@ const HeaderOptions = () => {
           onClick={() => handleOptionClick("Maps")}
         />
         <HeaderOption
-          Icon={PhotoIcon}
+          Icon={EllipsisVerticalIcon}
           title="More"
           selected={selectedOption === "More"}
           onClick={() => handleOptionClick("More")}
