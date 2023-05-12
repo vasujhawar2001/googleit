@@ -9,8 +9,8 @@ export default function Home() {
     <header className='flex w-full p-5 justify-end 
     text-sm text-gray-600 dark:text-gray-300'>
     <div className='flex space-x-4 items-center'>
-      <a className='link'>Gmail</a>
-      <a className='link'>Images</a>
+      <a className='link' href='https://mail.google.com/mail/'>Gmail</a>
+      <a className='link' href='https://www.google.com/imghp?hl=en'>Images</a>
       <div className='h-5 hover:bg-gray-200'>
       <CgMenuGridO
       size={20}

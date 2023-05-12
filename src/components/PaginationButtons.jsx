@@ -7,7 +7,7 @@ const PaginationButtons = () => {
     const router = useRouter();
     const startIndex = Number(router.query.start) || 0;
   return (
-    <div className='flex justify-evenly sm:ml-44 max-w-lg mb-10 text-[9px] text-blue-60'>
+    <div className='flex justify-evenly sm:ml-44 max-w-lg mb-10 text-[9px]'>
         {startIndex >= 10 && (
             <Link href={`/search?term=${router.query.term}&start=${startIndex-10}`}>
             <div className='flex flex-grow flex-col items-center cursor-pointer
