@@ -49,6 +49,19 @@ export const randomSongs =  [
     "https://youtu.be/qxmVVa-9xls?si=M-6CMjVcwriTUAPq",
     "https://youtu.be/P2s1Cl23oik?si=qhpWi0HVY04ET_gp",
     "https://youtu.be/PgCliOxl41o?si=qdfOP_lfEoe9vEYq",
-    "https://youtu.be/oEFEGcsjk1A?si=LraUu7MzhJZaZCC0"
-
+    "https://youtu.be/oEFEGcsjk1A?si=LraUu7MzhJZaZCC0",
+    "https://www.youtube.com/watch?v=TuUVVKVdZm4",
+    "https://youtu.be/T3E9Wjbq44E?si=de1V2oDznAtaQ9_U",
+    "https://www.youtube.com/watch?v=pXRviuL6vMY",
+    "https://www.youtube.com/watch?v=09R8_2nJtjg",
+    "https://www.youtube.com/watch?v=6MgsHSAcI9k",
+    "https://www.youtube.com/watch?v=pvuN_WvF1to",
+    "https://www.youtube.com/watch?v=r7qovpFAGrQ",
+    "https://www.youtube.com/watch?v=ApXoWvfEYVU",
+    "https://www.youtube.com/watch?v=D-YDEyuDxWU",
+    "https://www.youtube.com/watch?v=PMivT7MJ41M",
+    "https://www.youtube.com/watch?v=IQEDu8SPHao",
+    "https://www.youtube.com/watch?v=6osi85I2Y6U",
+    "https://youtu.be/vt4jX0iRgCg?si=rH__L9QM5c4dfneB",
+    
 ]
