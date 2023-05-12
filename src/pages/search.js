@@ -36,7 +36,7 @@ const search = ({ results }) => {
 export default search;
 
 export async function getServerSideProps({ query }) {
-  const useDummyData = true;
+  const useDummyData = false;
   const startIndex = query.start || "0";
 
   const data = useDummyData
