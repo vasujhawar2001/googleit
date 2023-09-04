@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['www.google.com'],
   },
+  basePath: '/googleit'
 }
 
 module.exports = nextConfig
