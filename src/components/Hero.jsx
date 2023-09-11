@@ -5,10 +5,11 @@ import GoogleSearchForm from './GoogleSearchForm';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center sm:mt-56 mt-40 flex-grow'>
+    <div className='flex flex-col items-center sm:mt-56 mt-36'>
       <Image src="/google.png" alt="Google"
-        height={180} 
-        width={180}/>
+        height={200} 
+        width={200}
+        className="relative w-60 h-30"/>
         <GoogleSearchForm />
     </div>
   )

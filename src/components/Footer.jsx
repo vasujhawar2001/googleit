@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer fixed-bottom">
+    <footer className="footer fixed bottom-0 left-0">
       <div className={`flex flex-row px-4 py-1 justify-between`}>
         <div className="flex items-center">
           <GlobeAltIcon className={`h-6 hover:animate-spin mr-2 link`} />

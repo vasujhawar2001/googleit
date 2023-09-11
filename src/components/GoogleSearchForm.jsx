@@ -27,7 +27,7 @@ const GoogleSearchForm = () => {
                 <img src='/microphone.svg' className="h-6 w-6 cursor-pointer hover:scale-110 justify-end mr-2" alt='microphone button' />
                 <img src='/lens.svg' className="h-6 w-6 cursor-pointer hover:scale-110 justify-end mr-2" alt='microphone button' />
             </div>
-            <div className='flex flex-col sm:flex-row space-y-4 justify-center mt-4 sm:space-x-4 sm:space-y-0'>
+            <div className='flex flex-col sm:flex-row space-y-4 justify-center mt-6 sm:space-x-4 sm:space-y-0'>
                 <button className='btn' onClick={search}>Google Search</button>
                 <button className='btn' onClick={feelingAwesome}>Feeling Awesome!</button>
             </div>

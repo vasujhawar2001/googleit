@@ -1,13 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Footer from '../components/Footer';
 
 export default function Document() {
 
   return (
-    <Html lang="en" suppressHydrationWarning>
+    <Html lang="en">
       <Head />
       <body>
-        <Main suppressHydrationWarning/>
+        <Main/>
         <NextScript />
       </body>
     </Html>
